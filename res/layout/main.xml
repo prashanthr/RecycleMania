@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+	xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/bk1" 
+    android:orientation="vertical" 
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    
+    <Button 
+    	android:layout_height="wrap_content" 
+    	android:id="@+id/buttonPlay" 
+    	android:clickable="true" 
+    	android:layout_width="wrap_content" 
+    	android:layout_gravity="center_vertical|center_horizontal" 
+    	android:width="200dp" 
+    	android:background="@drawable/play" 
+    	android:height="50dp" 
+    	android:layout_marginTop="200dp" 
+    	android:visibility="visible">
+    </Button>
+    <Button 
+    	android:layout_height="wrap_content" 
+    	android:id="@+id/buttonStory" 
+    	android:layout_width="wrap_content" 
+    	android:clickable="true" 
+    	android:layout_gravity="center_vertical|center_horizontal" 
+    	android:width="200dp" 
+    	android:background="@drawable/story" 
+    	android:height="50dp" 
+    	android:layout_marginTop="10dp" 
+    	android:visibility="visible">
+    </Button>
+    <Button 
+    	android:layout_height="wrap_content" 
+    	android:id="@+id/buttonExit" 
+    	android:layout_width="wrap_content" 
+    	android:width="200dp" 
+    	android:layout_gravity="center_vertical|center_horizontal" 
+    	android:height="50dp" android:clickable="true" 
+    	android:background="@drawable/exit" 
+    	android:layout_marginTop="10dp" 
+    	android:visibility="visible">
+    	</Button>
+</LinearLayout>

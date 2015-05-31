@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.kanaprom.recycle.DragLayer
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:launcher="http://schemas.android.com/apk/res/com.android.launcher"
+
+    android:id="@+id/drag_layer"
+    android:layout_height="wrap_content" 
+    android:layout_width="wrap_content" 
+    android:layout_gravity="fill_vertical|fill_horizontal">   
+<RelativeLayout 
+	xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" 
+    android:background="@drawable/bk2">
+    
+   	  <com.kanaprom.recycle.DropSpot
+        android:id="@+id/drop_spot4"
+        android:adjustViewBounds="true"
+        android:padding="10dp"
+        android:layout_width="10dp"
+        android:layout_height="10dp" 
+        android:layout_alignParentTop = "true" 
+        android:layout_alignParentRight ="true"
+        android:background="@drawable/point_0"/>
+            
+    <com.kanaprom.recycle.DropSpot
+        android:id="@+id/drop_spot1"
+        android:adjustViewBounds="true"
+        android:padding="10dp"
+        android:layout_width="110dp"
+        android:layout_height="110dp" 
+        android:layout_alignParentLeft="true" 
+        android:layout_alignParentBottom= "true"
+        android:background="@drawable/paperbin"
+        android:layout_above="@id/drop_spot4"/>
+        
+    <com.kanaprom.recycle.DropSpot
+        android:id="@+id/drop_spot2"
+        android:adjustViewBounds="true"
+        android:padding="10dp"
+        android:layout_width="110dp"
+        android:layout_height="110dp" 
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/drop_spot1"
+        android:layout_above="@id/drop_spot1"
+        android:background="@drawable/plasticbin"/>
+         
+    <com.kanaprom.recycle.DropSpot
+        android:id="@+id/drop_spot3"
+        android:adjustViewBounds="true"
+        android:layout_width="110dp"
+        android:layout_height="110dp" 
+    	android:layout_above="@id/drop_spot2"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/drop_spot2"
+        android:background="@drawable/metalbin"/>
+</RelativeLayout>
+
+<ImageView
+    android:id="@+id/Image21"
+    android:layout_weight="50" 
+    android:adjustViewBounds="true"
+    android:background="@drawable/end" 
+    android:layout_height="70dp" 
+    android:layout_width="70dp"/>
+<ImageView
+    android:id="@+id/Image1"
+    android:layout_weight="50" 
+    android:adjustViewBounds="true"
+    android:background="@drawable/paper" 
+    android:layout_height="100dp" 
+    android:layout_width="100dp"/>
+<ImageView
+    android:id="@+id/Image2"
+    android:layout_weight="50" 
+    android:adjustViewBounds="true"
+    android:background="@drawable/metal" 
+    android:layout_height="100dp" 
+    android:layout_width="100dp"/>
+<ImageView
+    android:id="@+id/Image3"
+    android:layout_weight="50" 
+    android:adjustViewBounds="true"
+    android:layout_height="100dp" 
+    android:layout_width="100dp" 
+    android:background="@drawable/plastic"/>
+<ImageView
+    android:id="@+id/Image4"
+    android:layout_weight="50" 
+    android:adjustViewBounds="true"
+    android:layout_height="100dp" 
+    android:layout_width="100dp" 
+    android:background="@drawable/compost"/>
+<ImageView
+    android:id="@+id/Image5"
+    android:layout_weight="50" 
+    android:adjustViewBounds="true"
+    android:background="@drawable/metal" 
+    android:layout_height="100dp" 
+    android:layout_width="100dp"/>
+    
+    <ImageView
+    android:id="@+id/Image7"
+    android:layout_weight="50" 
+    android:adjustViewBounds="true"
+    android:background="@drawable/mm1" 
+    android:layout_height="100dp" 
+    android:layout_width="100dp"/>
+    <ImageView
+    android:id="@+id/Image8"
+    android:layout_weight="50" 
+    android:adjustViewBounds="true"
+    android:background="@drawable/pp1" 
+    android:layout_height="100dp" 
+    android:layout_width="100dp"/>
+    <ImageView
+    android:id="@+id/Image9"
+    android:layout_weight="50" 
+    android:adjustViewBounds="true"
+    android:background="@drawable/pl1" 
+    android:layout_height="100dp" 
+    android:layout_width="100dp"/>
+    
+    
+    <ImageView
+    android:id="@+id/Image10"
+    android:layout_weight="50" 
+    android:adjustViewBounds="true"
+    android:background="@drawable/mm2" 
+    android:layout_height="100dp" 
+    android:layout_width="100dp"/>
+    <ImageView
+    android:id="@+id/Image11"
+    android:layout_weight="50" 
+    android:adjustViewBounds="true"
+    android:background="@drawable/pp2" 
+    android:layout_height="100dp" 
+    android:layout_width="100dp"/>
+	<ImageView
+    android:id="@+id/Image12"
+    android:layout_weight="50" 
+    android:adjustViewBounds="true"
+    android:background="@drawable/pl2" 
+    android:layout_height="100dp" 
+    android:layout_width="100dp"/>
+    
+    
+    <ImageView
+    android:id="@+id/Image13"
+    android:layout_weight="50" 
+    android:adjustViewBounds="true"
+    android:background="@drawable/mm3" 
+    android:layout_height="100dp" 
+    android:layout_width="100dp"/>
+    <ImageView
+    android:id="@+id/Image14"
+    android:layout_weight="50" 
+    android:adjustViewBounds="true"
+    android:background="@drawable/pp3" 
+    android:layout_height="100dp" 
+    android:layout_width="100dp"/>
+    <ImageView
+    android:id="@+id/Image15"
+    android:layout_weight="50" 
+    android:adjustViewBounds="true"
+    android:background="@drawable/pl3" 
+    android:layout_height="100dp" 
+    android:layout_width="100dp"/>
+    
+    <ImageView
+    android:id="@+id/Image16"
+    android:layout_weight="50" 
+    android:adjustViewBounds="true"
+    android:background="@drawable/mm4" 
+    android:layout_height="100dp" 
+    android:layout_width="100dp"/>
+     <ImageView
+    android:id="@+id/Image17"
+    android:layout_weight="50" 
+    android:adjustViewBounds="true"
+    android:background="@drawable/pp4" 
+    android:layout_height="100dp" 
+    android:layout_width="100dp"/>
+     <ImageView
+    android:id="@+id/Image18"
+    android:layout_weight="50" 
+    android:adjustViewBounds="true"
+    android:background="@drawable/pl4" 
+    android:layout_height="100dp" 
+    android:layout_width="100dp"/>
+    
+     <ImageView
+    android:id="@+id/Image19"
+    android:layout_weight="50" 
+    android:adjustViewBounds="true"
+    android:background="@drawable/mm5" 
+    android:layout_height="100dp" 
+    android:layout_width="100dp"/>
+     <ImageView
+    android:id="@+id/Image20"
+    android:layout_weight="50" 
+    android:adjustViewBounds="true"
+    android:background="@drawable/pp5" 
+    android:layout_height="100dp" 
+    android:layout_width="100dp"/>
+     <ImageView
+    android:id="@+id/Image6"
+    android:layout_weight="50" 
+    android:adjustViewBounds="true"
+    android:background="@drawable/pl5" 
+    android:layout_height="100dp" 
+    android:layout_width="100dp"/>
+    
+</com.kanaprom.recycle.DragLayer>
+
